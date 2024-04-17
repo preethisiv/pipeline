@@ -9,13 +9,10 @@ jobs:
   hello-world:
     steps:
       - echo "Hello World!"
+  test: {}
 stages:
   - name: build
     jobs:
       - - hello
         - world
-      - hello-world
-  - name: test
-    jobs:
-      - world
       - hello-world
