@@ -18,3 +18,5 @@ stages:
 runners:
   tesr:
     config-id: 3
+variables:
+  testt: '123'
